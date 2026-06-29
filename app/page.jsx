@@ -6,6 +6,7 @@ import First from './home/First'
 import Second from './home/Second'
 import { useFadeOnScroll } from "./hooks/gsapPage"
 import AirContainer from './models/AirContainer'
+import Navbar from './home/Components/navbar'
 
 const App = () => {
   const gsapReady = useRef(false)
@@ -19,8 +20,9 @@ const App = () => {
 
   return (
     <>
+    <Navbar/>
       <AirContainer />
-      <div id="scroll-container" className="relative overflow-x-hidden bg-zinc-800">
+      <div id="scroll-container" className="relative overflow-x-hidden ">
         <First />
         <Second />
         <Third />

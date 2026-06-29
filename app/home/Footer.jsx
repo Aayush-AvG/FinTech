@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="bg-amber-950 h-screen fade-section">
+    <div className="bg-amber-950 h-screen fade-section" id='contact'>
       <div className="fade-content">
         
       </div>

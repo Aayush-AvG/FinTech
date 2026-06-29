@@ -2,7 +2,7 @@ import React from 'react'
 
 const First = () => {
   return (
-    <div className="relative fade-section h-screen w-screen flex bg-[url('/bg.webp')] bg-cover bg-center font-[anzo3]">
+    <div className="relative fade-section h-screen w-screen flex font-[anzo3]">
       <div className="absolute top-28 right-38 items-center flex justify-center">
         <h1 className="text-9xl fin font-extrabold tracking-widest text-white relative" data-content="FiNova">
           FiNova
